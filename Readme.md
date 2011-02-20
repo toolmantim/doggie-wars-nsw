@@ -6,7 +6,7 @@ This is the Doggie Wars application that team Puppie Power ([@toolmantim](http:/
 [@lisakate](http://twitter.com/lisakate), [@brettgoulder](http://twitter.com/brettgoulder) and [@cjwoodward](http://twitter.com/cjwoodward)) built for the [apps4nsw hack day](http://apps4nsw.webdirections.org/). The app is incomplete, and doesn't really do much, as we spent most of the day
 working on the API:
 
-[http://nsw-pet-register.heroku.com/](http://nsw-pet-register.heroku.com/)
+[http://github.com/toolmantim/nsw-pet-register](http://github.com/toolmantim/nsw-pet-register)
 
 ## Running
 

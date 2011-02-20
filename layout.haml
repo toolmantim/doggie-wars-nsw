@@ -2,7 +2,7 @@
 %html
   %head
     %script DoggieWars = {}
-    - for js in %w( vendor/jquery vendor/underscore vendor/backbone vendor/mustache jquery.mustache app-view app )
+    - for js in %w( vendor/jquery vendor/underscore vendor/backbone vendor/mustache app-view boot )
       %script{:src => "/js/#{js}.js"}
     %link(rel="stylesheet" href="/dogwars.css")
     %link(href='http://fonts.googleapis.com/css?family=Allan:bold' rel='stylesheet')

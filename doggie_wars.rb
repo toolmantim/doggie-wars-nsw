@@ -4,7 +4,7 @@ require 'json'
 
 class DoggieWars < Sinatra::Application
 
-  set :views, root
+  set(:views) { root }
 
   configure :development do
     require 'sinatra/reloader'
@@ -12,7 +12,7 @@ class DoggieWars < Sinatra::Application
 
   helpers do
     def templates
-      Pathname(root).join("templates").children
+      Pathname(settings.root).join("templates").children
     end
   end
 

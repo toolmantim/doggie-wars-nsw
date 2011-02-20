@@ -1,0 +1,43 @@
+* {
+  margin: 0;
+  padding: 0; }
+
+html, body {
+  width: 100%;
+  height: 100%; }
+
+#app-view {
+  width: 100%;
+  height: 100%;
+  background: url(/images/map.jpg) center center no-repeat;
+  position: relative;
+  color: white;
+  font-family: 'Allan', arial, serif;
+  text-shadow: 2px 2px 0 black;
+  -webkit-font-smoothing: antialiased; }
+  #app-view.choose img.logo {
+    -webkit-transition: all 300ms;
+    -webkit-transition-delay: 500ms;
+    top: 20%;
+    -webkit-transform: scale(0.85); }
+  #app-view.choose p.loading {
+    -webkit-transition: opacity 500ms;
+    opacity: 0; }
+  #app-view .overlay {
+    position: absolute;
+    background: rgba(0, 0, 0, 0.85);
+    width: 100%;
+    height: 100%; }
+  #app-view img.logo {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    margin-left: -156px;
+    margin-top: -107px; }
+  #app-view p.loading {
+    position: absolute;
+    text-align: center;
+    top: 60%;
+    width: 100%;
+    font-size: 32px;
+    font-weight: normal; }

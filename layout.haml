@@ -1,0 +1,13 @@
+!!!
+%html
+  %head
+    %script DoggieWars = {}
+    - for js in %w( vendor/jquery vendor/underscore vendor/backbone vendor/mustache jquery.mustache app-view app )
+      %script{:src => "/js/#{js}.js"}
+    %link(rel="stylesheet" href="/dogwars.css")
+    %link(href='http://fonts.googleapis.com/css?family=Allan:bold' rel='stylesheet')
+  %body
+    - for template in templates
+      %script{:type => "text/mustache-template", :id => "#{template.basename('.haml')}-template"}
+        = haml template.read, :layout => false
+
